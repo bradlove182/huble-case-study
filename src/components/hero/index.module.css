@@ -1,0 +1,57 @@
+.hero {
+    position: relative;
+    padding: 7rem clamp(1vw, 5vw, 5vw);
+}
+
+.image {
+    background-image: url("/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsla(0, 0%, 0%, 40%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.text {
+    max-width: 650px;
+}
+
+.text span {
+    font-weight: var(--font-weight-4);
+    color: var(--brand);
+}
+
+.slider {
+    width: 100%;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img {
+    max-width: 155px;
+    transition: opacity 0.3s ease;
+}
+
+.slide .link:hover img {
+    opacity: 0.5;
+}

@@ -24,9 +24,9 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--text-amplified);
+    color: var(--text);
     font-weight: var(--font-weight-4);
-    line-height: 1.9;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 

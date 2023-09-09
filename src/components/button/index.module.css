@@ -1,16 +1,20 @@
 .button {
-    height: 44px;
+    height: 58px;
     width: max-content;
-    padding: 0 var(--spacing-3);
-    border-radius: var(--border-radius-3);
+    padding: 0 2.5rem;
+    border-radius: var(--border-radius-6);
     display: flex;
     gap: var(--spacing-2);
     align-items: center;
     justify-content: center;
     position: relative;
-    transition: box-shadow 0.3s ease;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
     outline: none;
     color: var(--text-amplified);
+    text-transform: uppercase;
+    font-weight: var(--font-weight-4);
 }
 
 .brand {
@@ -18,8 +22,21 @@
     color: var(--text);
 }
 
+.brand:hover,
+.brand:focus,
+.brand:active {
+    background-color: var(--brand-100);
+}
+
 .outline {
     background-color: transparent;
-    border-width: var(--border-1);
+    border-width: var(--border-3);
     border-color: var(--brand);
+}
+
+.outline:hover,
+.outline:focus,
+.outline:active {
+    background-color: var(--brand);
+    color: #000;
 }

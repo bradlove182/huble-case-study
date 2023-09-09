@@ -1,5 +1,6 @@
 :root {
     --brand: hsl(358, 100%, 68%);
+    --brand-100: hsl(354, 55%, 55%);
     --background: hsl(240, 0%, 0%);
     --background-100: hsl(240, 0%, 5%);
     --background-200: hsl(240, 0%, 10%);
@@ -21,6 +22,7 @@
     --border-radius-3: 8px;
     --border-radius-4: 12px;
     --border-radius-5: 16px;
+    --border-radius-6: 32px;
 
     --border-0: 0px;
     --border-1: 1px;
@@ -34,7 +36,7 @@
     --font-size-4: 1.125rem;
     --font-size-5: 1.25rem;
     --font-size-6: 1.5rem;
-    --font-size-7: 2rem;
+    --font-size-7: 3.375rem;
 
     --font-weight-1: 300;
     --font-weight-2: 400;
