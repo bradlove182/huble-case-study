@@ -23,7 +23,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: hsla(0, 0%, 0%, 40%);
+    background-color: hsla(0, 0%, 0%, 50%);
     z-index: -1;
     pointer-events: none;
 }
@@ -49,6 +49,7 @@
 
 .slide img {
     max-width: 155px;
+    width: 100%;
     transition: opacity 0.3s ease;
 }
 

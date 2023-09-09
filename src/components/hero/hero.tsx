@@ -43,10 +43,19 @@ const Hero: React.ComponentType = () => {
                 autoplay={{
                     pauseOnMouseEnter: true,
                 }}
-                slidesPerView={5}
                 className={style.slider}
                 loop
                 speed={3000}
+                breakpoints={{
+                    480: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                    },
+                    640: {
+                        slidesPerView: 5,
+                        spaceBetween: 30,
+                    },
+                }}
             >
                 {sliderLogos.map((logo) => (
                     <SwiperSlide key={logo} className={style.slide}>
