@@ -1,0 +1,25 @@
+.button {
+    height: 44px;
+    width: max-content;
+    padding: 0 var(--spacing-3);
+    border-radius: var(--border-radius-3);
+    display: flex;
+    gap: var(--spacing-2);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    color: var(--text-amplified);
+}
+
+.brand {
+    background-color: var(--brand);
+    color: var(--text);
+}
+
+.outline {
+    background-color: transparent;
+    border-width: var(--border-1);
+    border-color: var(--brand);
+}

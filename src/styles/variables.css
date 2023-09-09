@@ -1,0 +1,43 @@
+:root {
+    --brand: hsl(358, 100%, 68%);
+    --background: hsl(240, 0%, 0%);
+    --background-100: hsl(240, 0%, 5%);
+    --background-200: hsl(240, 0%, 10%);
+    --background-300: hsl(240, 0%, 15%);
+    --text: hsl(240, 100%, 100%);
+
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --spacing-5: 32px;
+    --spacing-6: 40px;
+    --spacing-7: 48px;
+    --spacing-8: 56px;
+    --spacing-9: 64px;
+
+    --border-radius-1: 2px;
+    --border-radius-2: 4px;
+    --border-radius-3: 8px;
+    --border-radius-4: 12px;
+    --border-radius-5: 16px;
+
+    --border-0: 0px;
+    --border-1: 1px;
+    --border-2: 2px;
+    --border-3: 3px;
+    --border-4: 4px;
+
+    --font-size-1: 12px;
+    --font-size-2: 0.875rem;
+    --font-size-3: 1rem;
+    --font-size-4: 1.125rem;
+    --font-size-5: 1.25rem;
+    --font-size-6: 1.5rem;
+    --font-size-7: 2rem;
+
+    --font-weight-1: 300;
+    --font-weight-2: 400;
+    --font-weight-3: 500;
+    --font-weight-4: 600;
+}
