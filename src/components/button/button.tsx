@@ -14,6 +14,7 @@ export interface ButtonProps {
     onClick?: () => void;
     as?: IntrinsicButtonElements;
     variant?: "brand" | "outline";
+    size?: "default" | "small";
 }
 
 const Button: React.ComponentType<ButtonProps> = ({
@@ -22,13 +23,18 @@ const Button: React.ComponentType<ButtonProps> = ({
     disabled = false,
     onClick,
     as = "button",
+    size = "default",
 }) => {
     return (
         <>
             {React.createElement(
                 as,
                 {
-                    className: buildClassNames([style.button, style[variant]]),
+                    className: buildClassNames([
+                        style.button,
+                        style[variant],
+                        style[size],
+                    ]),
                     disabled: disabled,
                     type: "button",
                     role: "button",

@@ -1,7 +1,5 @@
 .button {
-    height: 58px;
     width: max-content;
-    padding: 0 2.5rem;
     border-radius: var(--border-radius-6);
     display: flex;
     gap: var(--spacing-2);
@@ -15,6 +13,16 @@
     color: var(--text-amplified);
     text-transform: uppercase;
     font-weight: var(--font-weight-4);
+}
+
+.default {
+    height: 58px;
+    padding: 0 2.5rem;
+}
+
+.small {
+    height: var(--spacing-6);
+    padding: 0 1.5rem;
 }
 
 .brand {
