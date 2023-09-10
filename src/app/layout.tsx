@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-    title: "Huble Monolith",
-    description: "Huble Monolith Assessment",
+    title: "Huble Assesment",
+    description: "Huble Assessment",
 };
 
 export default function RootLayout({
