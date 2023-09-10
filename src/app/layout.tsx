@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-    title: "Huble Assesment",
+    title: "Huble Assessment",
     description: "Huble Assessment",
 };
 
