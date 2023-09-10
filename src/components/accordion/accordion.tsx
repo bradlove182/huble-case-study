@@ -30,7 +30,7 @@ const Accordion: React.ComponentType = () => {
                     "Select your organization type to learn how Snapdocs can help you save time and money on every transaction."
                 }
             </p>
-            <Flex fullWidth alignItems="stretch">
+            <Flex fullWidth alignItems="center">
                 <div className={style.accordions}>
                     {accordionData.map((item, index) => (
                         <div

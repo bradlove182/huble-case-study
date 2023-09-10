@@ -1,14 +1,16 @@
 .container {
-    padding: 5rem;
+    padding: clamp(1vw, 5vw, 5vw);
     border-radius: var(--border-radius-4);
     background-color: var(--background-100);
     margin: 5rem auto;
     max-width: 90vw;
 }
 
-.container h2,
-.container h2 ~ p {
-    text-align: center;
+@media only screen and (min-width: 960px) {
+    .container h2,
+    .container h2 ~ p {
+        text-align: center;
+    }
 }
 
 .accordions {
@@ -70,4 +72,10 @@
 .accordion-images {
     position: relative;
     width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    .accordion-images {
+        display: none;
+    }
 }
